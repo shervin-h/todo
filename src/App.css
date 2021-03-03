@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  /*height: 40vmin;*/
   pointer-events: none;
 }
 
@@ -24,6 +24,15 @@
   color: white;
 }
 
+.my-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +44,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button.clock{
+  margin: 8px;
+  padding: 4px;
+  box-shadow: 4px 4px 8px #4e5258;
+  border: none;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 20pt;
+  color: white;
+  background-color: #19a0c2
+}
+
+div.clock-area{
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px #323232;
+  background-color: #24606f;
+  padding: 8px;
+  margin: 8px;
 }
